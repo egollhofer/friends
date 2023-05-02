@@ -20,3 +20,5 @@ Sentiment was quantified using the package VADER Sentiment Analysis (https://git
 <p align="center">
   <img src='figures/emotionality.png' width='500'>
 </p>
+
+Emotionality was quantified using methods laid out in the paper CITATION HERE.  Vector representations were made based on words that represented two poles of emotionality - high emotionality vs low emotionality - and a vector representation was made based on the words in each utterance in the dialogue corpus.  The strength of emotionality was quantified based on whether the utterance vector was more similar to the highly-emotional vector or the low-emotional vector.
