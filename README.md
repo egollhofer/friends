@@ -1,7 +1,7 @@
 # Intimacy, emotionality, and sentiment among *Friends*
 I'm a huge fan of the TV show *Friends*, so when I found a dialogue dataset from all ten seasons I just had to play with it.  I decided to use some NLP methods to quantify a handful of language aspects to see what they revealed about the main characters in the show. 
 
-The first thing I wanted to see was how often each of the different characters speak to each other, which I thought was easy to see in the following heatmap:
+The first thing I wanted to see was how often each of the different characters speak to each other, which I thought was easiest to see in the following heatmap:
 
 <p align="center">
   <img src='figures/speaker_count.png' width='500'>
