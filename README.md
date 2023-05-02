@@ -16,3 +16,7 @@ I quantified three aspects of language - intimacy, sentiment, and emotionality -
 </p>
 
 Sentiment was quantified using the package VADER Sentiment Analysis (https://github.com/cjhutto/vaderSentiment).
+
+<p align="center">
+  <img src='figures/emotionality.png' width='500'>
+</p>
