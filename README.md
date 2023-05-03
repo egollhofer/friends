@@ -15,16 +15,16 @@ Next I wanted learn more about the affects characters express in conversation wi
   <img src='figures/sentiment.png' width='500'>
 </p>
 
-Sentiment was quantified using the package VADER Sentiment Analysis (https://github.com/cjhutto/vaderSentiment).  Darker colors are indicative of more positive sentiment, while lighter colors are indicative of less positive (but still positive!) sentiment.  All of the *Friends* showed positive sentiment in conversations with each other.
+Sentiment was quantified using the package VADER Sentiment Analysis (https://github.com/cjhutto/vaderSentiment).  Darker colors are indicative of more positive sentiment, while lighter colors are indicative of less positive (but still positive!) sentiment.  All of the *Friends* showed positive sentiment in conversations with each other.  The characters also demonstrated reciprocal levels of sentiment in conversations with each other - if one character expressed high levels of sentiment to another, that second character expressed equally high levels of sentiment in return.
 
 <p align="center">
   <img src='figures/emotionality.png' width='500'>
 </p>
 
-Emotionality was quantified using methods laid out in the paper CITATION HERE.  Vector representations were made based on words that represented two poles of emotionality - high emotionality vs low emotionality - and a vector representation was made based on the words in each utterance in the dialogue corpus.  The strength of emotionality was quantified based on whether the utterance vector was more similar to the highly-emotional vector or the low-emotional vector.
+Emotionality was quantified using methods laid out in a study which evaluated emotion and reason in political language (Gennaro and Ash 2022, http://gloriagennaro.rbind.io/publication/ash_gennaro/).  Vector representations were made based on words that represented two poles of emotionality - high emotionality vs low emotionality - and a vector representation was made based on the words in each utterance in the dialogue corpus.  The strength of emotionality was quantified based on whether the utterance vector was more similar to the highly-emotional vector or the low-emotional vector.  Emotionality followed the same pattern as sentiment - characters expressed similar levels of emotionality in conversation with each other.
 
 <p align="center">
   <img src='figures/intimacy.png' width='500'>
 </p>
 
-Intimacy was quantified using the package Question-Intimacy (https://github.com/Jiaxin-Pei/Quantifying-Intimacy-in-Language).  In this scale, questions are rated on a scale of (-1, 1), where positive numbers indicate greater intimacy, and negative numbers indicate less intimacy.
+Intimacy was quantified using the package Question-Intimacy (https://github.com/Jiaxin-Pei/Quantifying-Intimacy-in-Language).  In this scale, questions are rated on a scale of (-1, 1), where positive numbers indicate greater intimacy, and negative numbers indicate less intimacy.  Intimacy didn't follow the same pattern as emotionality and sentiment - for example, Rachel is very intimate in what she says to Chandler, but he's not intimate at all in return.
