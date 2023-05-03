@@ -22,3 +22,9 @@ Sentiment was quantified using the package VADER Sentiment Analysis (https://git
 </p>
 
 Emotionality was quantified using methods laid out in the paper CITATION HERE.  Vector representations were made based on words that represented two poles of emotionality - high emotionality vs low emotionality - and a vector representation was made based on the words in each utterance in the dialogue corpus.  The strength of emotionality was quantified based on whether the utterance vector was more similar to the highly-emotional vector or the low-emotional vector.
+
+<p align="center">
+  <img src='figures/intimacy.png' width='500'>
+</p>
+
+Intimacy was quantified using the package Question-Intimacy (https://github.com/Jiaxin-Pei/Quantifying-Intimacy-in-Language).
