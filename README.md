@@ -15,7 +15,7 @@ I quantified three aspects of language - intimacy, sentiment, and emotionality -
   <img src='figures/sentiment.png' width='500'>
 </p>
 
-Sentiment was quantified using the package VADER Sentiment Analysis (https://github.com/cjhutto/vaderSentiment).  
+Sentiment was quantified using the package VADER Sentiment Analysis (https://github.com/cjhutto/vaderSentiment).  Darker colors are indicative of more positive sentiment, while lighter colors are indicative of less positive (but still positive!) sentiment.  All of the *Friends* showed positive sentiment in conversations with each other.
 
 <p align="center">
   <img src='figures/emotionality.png' width='500'>
@@ -27,4 +27,4 @@ Emotionality was quantified using methods laid out in the paper CITATION HERE.  
   <img src='figures/intimacy.png' width='500'>
 </p>
 
-Intimacy was quantified using the package Question-Intimacy (https://github.com/Jiaxin-Pei/Quantifying-Intimacy-in-Language).
+Intimacy was quantified using the package Question-Intimacy (https://github.com/Jiaxin-Pei/Quantifying-Intimacy-in-Language).  In this scale, questions are rated on a scale of (-1, 1), where positive numbers indicate greater intimacy, and negative numbers indicate less intimacy.
